@@ -1,0 +1,56 @@
+
+.vehicledashboard-footer {
+    margin-top: auto;
+    background: linear-gradient(to bottom, rgba(63, 63, 63, 0.95), rgba(8, 8, 8, 0.588)); 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vehicledashboard-footer-links {
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    gap: 3rem;  
+    display: flex;
+    align-items: first baseline;
+  }
+  
+  .vehicledashboard-footer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+  
+  }
+  
+  .vehicledashboard-footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: .5rem;
+  }
+
+
+  .vehicledashboard-footer-links-group a{
+    display: block;
+    text-align: left;
+    font-size: .6rem;
+  }
+
+  .vehicledashboard-footer-log-right-reserverd{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+  }
+
+
+  .vehicledashboard-footer-log-right-reserverd p{
+    font-size: .4rem;
+  }
+
+
+  .vehicledashboard-footer-logo img{
+    width: 2rem;
+  }

@@ -1,0 +1,94 @@
+:root {
+    --background-color: #000;
+    --text-color: #fff;
+    --transparent-bg-color: rgba(26, 26, 26, 0.5);
+    --button-bg-color: #333;
+    --font-family: 'Arial', sans-serif;
+}
+
+
+.addcar-wraper {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-image: url("../../../assets/dashboardbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--text-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+    
+}
+
+.addcar-logobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.addcar-logobox .arrow{
+    font-size: 4rem;
+}
+
+
+.addcar-logobox img{
+    width: 4rem;
+}
+
+.addcar-header{
+    text-align: start;
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-left: .5rem;
+}
+
+
+.addcar-input-wraper{
+    background: linear-gradient(to bottom, rgba(63, 63, 63, 0.95), rgba(26, 26, 26, 0.1)); 
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+   
+}
+
+
+.addcar-input{
+    background: transparent;
+    border-radius: 1rem;
+    border: .1rem solid white;
+    width: 100%;
+    height: 2rem;
+    color: #fff;
+    padding:0 1rem;
+}
+
+
+.addcar-name{
+    text-align: start;
+    margin-bottom: -.00001rem;
+    margin-left: 1rem;
+}
+
+.addcar-wraper button{
+    border-radius: 1rem ;
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    width: 70%;
+    align-self: center;
+}
+
+.caraddsuc-h2 {
+    text-align: start;
+    font-size: 2rem;
+}
